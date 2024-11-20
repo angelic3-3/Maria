@@ -1,0 +1,141 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bd8d8d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 10px; 
+}
+
+
+form {
+    background-color: #694141;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    margin: 20px; 
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e7dede;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #e6d0d0;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    background-color: #41038b91;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: #a81616;
+}
+
+fieldset {
+    border: 1px solid #f5e8e8;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #7c4f4f;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.2);
+}
+
+
+button[type="submit"] {
+    background-color: #5b7b9c;
+    color: #fff;
+    padding: 1.2rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 1.5rem;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+        font-size: 1rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1rem;
+    }
+}
