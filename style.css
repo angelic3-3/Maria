@@ -65,7 +65,7 @@ select:focus,
 textarea:focus {
     border-color: #007BFF;
     outline: none;
-    background-color: #885ac091;
+    background-color: #0d0d0e91;
 }
 
 input:invalid,
