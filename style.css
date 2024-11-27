@@ -25,14 +25,14 @@ form {
 /* Título */
 h1 {
     text-align: center;
-    color: #eb6363;
+    color: #0f0f0f;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 #description {
     text-align: center;
-    color: #666;
+    color: #080808;
     margin-bottom: 2rem;
     font-size: 1rem;
 }
@@ -41,7 +41,7 @@ label {
     display: block;
     margin-bottom: 0.6rem;
     font-weight: 600;
-    color: #333;
+    color: #e61c1c;
     font-size: 1.1rem;
 }
 
@@ -84,7 +84,7 @@ fieldset {
 
 legend {
     font-weight: bold;
-    color: #333;
+    color: #050505;
     font-size: 1.2rem;
 }
 
